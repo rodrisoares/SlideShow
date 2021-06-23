@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: grey;
+}
+
+nav{
+    height: 60px;
+    background-color: #282828;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slider{
+    flex: 1;
+    overflow: hidden;
+}
+
+.slider_width{
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
+
+.slider_item{
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider_controls{
+    position: absolute;
+    z-index: 99;
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 10%;
+}
+
+.control{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    bottom: 0;
+    height: 20%;
+}
+
+.info{
+    color: #fff;
+    position: relative;
+    top: 80%;
+    left: 20%;
+    font-size: large;
+    line-height: 100%;
+}
