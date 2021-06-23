@@ -4,7 +4,7 @@ Slider de fotos das 7 maravilhas do mundo. Tem 3 botões para gerenciar os slide
 
 ## Layout
 
-<img src="https://github.com/rodrisoares/SlideShow/blob/main/img/slideshow2.PNG" />
+<img src="https://github.com/rodrisoares/SlideShow/blob/main/img/slideshow2.png" />
 
 
 # 🛠 Tecnologias:
